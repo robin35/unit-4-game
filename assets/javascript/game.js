@@ -106,10 +106,7 @@ resetScore = function() {
     gameOver = false;
     gameWon = false;
 
-    $(".marilyn").animate({
-      height: "100px"
-    });
-  
+ 
   // call the Start Game function
   startGame();  
   }

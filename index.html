@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8" >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Kaushan+Script|Kreon|PT+Sans|Roboto" rel="stylesheet">
+
+
+           
+        <title>Diamond Collector</title>
+    
+    </head>
+
+    <body>
+
+        <!-- Creates a container and nested boxes for the upper page -->
+       <div id="container">
+                
+            <div class="box">
+                <h1>Diamonds Are A Girl's Best Friend!</h1>
+            </div>
+
+            <div id="verbiage" class="box">
+                <p>              
+                    Below is my diamond count.  Can you match it???
+                    <br>
+                    If you match Your Score to My Diamond Count, you win!
+                    <br>
+                    If you go over My Diamond Count, you lose.
+                    <br>
+                </p>
+            </div>
+
+            <h2 class="match">Match My Diamond Count!</h2>
+
+            <div class="randomNumber box "></div>
+
+
+
+
+            <div class="crystals box">
+
+                <div id="verbiage" class="box">
+                    <p>
+                        Click on any of the four crystals below to score the hidden points.  
+                    </p>
+                </div>
+
+                <img id="c0" src="assets/images/1-Blue-diamond.png" alt="Blue Diamond" width="75" height="75">
+
+                <img id="c1" src="assets/images/2-kisspng-white-heart-diamond.png" alt="White Diamond" width="75" height="75">
+
+                <img id="c2" src="assets/images/3-kisspng-pink-diamond.png" alt="Pink Diamond" width="75" height="75">
+
+                <img id="c3" src="assets/images/4-kisspng-white-diamond.png" alt="White Diamond" width="75" height="75">
+            </div>
+   
+
+            <h2 class="match">Your Score</h2>
+            <div id="score" class="box numberFormat"></div>
+
+            <audio id = "myAudio">
+                <source src="assets/images/diamonds2.wav" type="audio/wav">
+            </audio>
+
+
+            <h2>Wins:</h2>
+            <div id="wins" class="box numberFormat"></div>
+
+            <h2>Losses:</h2>
+            <div id="losses" class="box numberFormat"></div>
+
+        
+        </div>
+
+
+
+    
+        <footer>
+                Copyright ©
+        </footer>
+
+    </body>
+
+    <script type = "text/javascript" src="assets/javascript/game.js"></script>
+
+</html>

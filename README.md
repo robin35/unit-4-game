@@ -1,6 +1,7 @@
 # unit-4-game
 
 “DIAMONDS ARE A GIRL’S BEST FRIEND” GUESSING GAME!
+Link: https://robin35.github.io/unit-4-game/
 
 Thank you for visiting my repository. This project is a random number guessing game using JavaScript.  Here’s a little information on how to play:
 
